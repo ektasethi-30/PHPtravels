@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PHPTravelSuite">
+  <test name="PHPTravel test">
+    <classes>
+      <class name="automationFramework_TC.HomePage_TC"/>
+      <!--<class name="automationFramework_TC.LandingPage_TC"/>-->
+      
+    </classes>
+  </test> 
+</suite> 
+			

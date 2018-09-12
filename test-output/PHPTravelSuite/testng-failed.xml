@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHPTravelSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PHPTravel test(failed)">
+    <classes>
+      <class name="automationFramework_TC.HomePage_TC">
+        <methods>
+          <include name="signupFail1"/>
+          <include name="login"/>
+          <include name="TeardownTest"/>
+          <include name="signupFail2"/>
+          <include name="signupSuccess"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- automationFramework_TC.HomePage_TC -->
+    </classes>
+  </test> <!-- PHPTravel test(failed) -->
+</suite> <!-- Failed suite [PHPTravelSuite] -->
